@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/uofa-cmput404/nodejs-ws-lab#readme",
   "dependencies": {
+    "deasync": "^0.1.29",
     "debug": "^4.1.1",
     "express": "^4.16.4",
     "parcel-bundler": "1.12.3",
