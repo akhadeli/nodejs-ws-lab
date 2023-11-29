@@ -1,0 +1,11 @@
+1:
+  I can see a window with level/map with a bunny image inside the level/map. Performing a click adds a red filter to the bunny image on the tab where the buny is being clicked. When dragging on one tab, all other tabs update with the current position of the bunny.
+
+2:
+  Javascript is dynamically typed whereas Typescript can optionally be strongly/statically typed, allowing for easier debugging, reading and cleaner code. Typescript is transplied into Javascript. Typescript is also more useful for projects that need to scale vastly since static typing enforces reliable code.
+
+3:
+  Modern web projects are split into separate chunks, to allow for better management and concurrent development. However we would like to bundle these chunks into one source instead many, as it improves perfomance, compatibility and user experience as result. Web app bundlers like ParcelJS will bundle our applitcations - with support for Typescript - to take advantage of these optimizations.
+
+4:
+  
