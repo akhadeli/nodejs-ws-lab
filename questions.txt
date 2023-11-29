@@ -8,4 +8,11 @@
   Modern web projects are split into separate chunks, to allow for better management and concurrent development. However we would like to bundle these chunks into one source instead many, as it improves perfomance, compatibility and user experience as result. Web app bundlers like ParcelJS will bundle our applitcations - with support for Typescript - to take advantage of these optimizations.
 
 4:
-  
+  readyState can be in four states: 
+    0: CONNECTING - Socket instance is created, however the connection is not yet open
+    1: OPEN - The connection is open and awaiting connections
+    2: CLOSING - The connection has begun closing, and won't accept connections
+    3: CLOSED - The connection is closed, or the connection could not open
+
+5:
+  https://github.com/akhadeli/nodejs-ws-lab
