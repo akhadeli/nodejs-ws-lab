@@ -1,18 +1,27 @@
 1:
-  I can see a window with level/map with a bunny image inside the level/map. Performing a click adds a red filter to the bunny image on the tab where the buny is being clicked. When dragging on one tab, all other tabs update with the current position of the bunny.
+
+  I can see a window with a level/map with a bunny image inside the level/map. Performing a click adds a red filter to the bunny image on the tab where the bunny is being clicked. When dragging on one tab, all other tabs update with the current position of the bunny.
 
 2:
-  Javascript is dynamically typed whereas Typescript can optionally be strongly/statically typed, allowing for easier debugging, reading and cleaner code. Typescript is transplied into Javascript. Typescript is also more useful for projects that need to scale vastly since static typing enforces reliable code.
+
+  Javascript is dynamically typed whereas Typescript can optionally be strongly/statically typed, allowing easier debugging, reading, and cleaner code. Typescript is transplied into Javascript. Typescript is also more useful for projects that need to scale vastly since static typing enforces reliable code.
 
 3:
-  Modern web projects are split into separate chunks, to allow for better management and concurrent development. However we would like to bundle these chunks into one source instead many, as it improves perfomance, compatibility and user experience as result. Web app bundlers like ParcelJS will bundle our applitcations - with support for Typescript - to take advantage of these optimizations.
+
+  Modern web projects are split into separate chunks, to allow for better management and concurrent development. However, we would like to bundle these chunks into one source instead of many sources, as it improves performance, compatibility, and user experience as a result. Web app bundlers like ParcelJS will bundle our applications - with support for Typescript - to take advantage of these optimizations.
 
 4:
+
   readyState can be in four states: 
+
     0: CONNECTING - Socket instance is created, however the connection is not yet open
+
     1: OPEN - The connection is open and awaiting connections
+
     2: CLOSING - The connection has begun closing, and won't accept connections
+
     3: CLOSED - The connection is closed, or the connection could not open
 
 5:
+
   https://github.com/akhadeli/nodejs-ws-lab
